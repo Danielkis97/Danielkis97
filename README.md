@@ -140,14 +140,6 @@ Right now, I’m especially focused on:
 - improving technical range across ML, deployment, and product execution
 - building projects that sit between AI, software, and digital entrepreneurship
 
----
-
-## GitHub Analytics
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Danielkis97&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danielkis97&layout=compact&theme=github_dark&hide_border=true" />
-</p>
 
 ---
 
