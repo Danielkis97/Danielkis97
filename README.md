@@ -182,15 +182,6 @@ Right now, I’m especially focused on:
 
 ---
 
-## GitHub Analytics
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Danielkis97&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danielkis97&layout=compact&theme=github_dark&hide_border=true" />
-</p>
-
----
-
 ## Streak Stats
 
 <p align="center">
