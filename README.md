@@ -21,7 +21,7 @@ My interests and projects span:
 - Infrastructure, deployment, and system-oriented thinking
 - Brand building and product positioning
 
-I prefer execution over empty theory, working prototypes over vague concepts, and scalable systems over one-off experiments.
+
 
 ---
 
