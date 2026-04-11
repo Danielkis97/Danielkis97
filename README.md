@@ -4,7 +4,7 @@
 
 Working full-time while studying Applied Artificial Intelligence, with a strong focus on building real-world systems across AI, automation, web development, and digital products.
 
-I’m especially interested in combining technical execution with product thinking — not just training models, but building usable systems, workflows, and applications that solve real problems.
+I’m especially interested in combining technical execution with product thinking not just training models, but building usable systems, workflows, and applications that solve real problems.
 
 ---
 
