@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Animated terminal: whoami prints Daniel, Applied AI, Automation, Digital Products, then trains an idea into a shipped product next to a neural network" />
+</p>
+
 # Hi, I'm Daniel 👋
 
 ## Applied AI | Machine Learning | Automation | Digital Systems
