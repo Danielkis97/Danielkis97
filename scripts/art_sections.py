@@ -137,14 +137,14 @@ def divider():
     W, H = 1200, 24
     defs = (f'<linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="{C["cyan"]}" stop-opacity="0"/>'
             f'<stop offset=".5" stop-color="{C["cyan"]}"/><stop offset=".75" stop-color="{C["pink"]}"/>'
-            f'<stop offset="1" stop-color="{C["pink"]}" stop-opacity="0"/></linearGradient>')
+            f'<stop offset="1" stop-color="{C["pink"]}" stop-opacity="0"/></linearGradient>'
+            f'<clipPath id="gap"><rect width="586" height="{H}"/><rect x="614" width="{W - 614}" height="{H}"/></clipPath>')
     style = (".beam{animation:beam 4.5s cubic-bezier(.6,0,.4,1) infinite}"
              "@keyframes beam{0%{transform:translateX(-320px)}100%{transform:translateX(1200px)}}"
              ".dia{transform-box:fill-box;transform-origin:center;animation:spin 6s linear infinite}"
              "@keyframes spin{to{transform:rotate(360deg)}}")
-    body = (f'<line x1="0" x2="{W}" y1="12" y2="12" stroke="{C["line"]}" stroke-width="2"/>'
-            f'<rect class="beam" x="0" y="10.5" width="320" height="3" rx="1.5" fill="url(#beam)"/>'
-            f'<rect x="590" y="2" width="20" height="20" fill="{C["bg"]}"/>'
+    body = (f'<g clip-path="url(#gap)"><line x1="0" x2="{W}" y1="12" y2="12" stroke="{C["line"]}" stroke-width="2"/>'
+            f'<rect class="beam" x="0" y="10.5" width="320" height="3" rx="1.5" fill="url(#beam)"/></g>'
             f'<rect class="dia" x="594" y="6" width="12" height="12" fill="none" stroke="{C["violet"]}" stroke-width="2"/>')
     return svg(W, H, body, "divider", "An animated neon divider line.", style=style, defs=defs)
 

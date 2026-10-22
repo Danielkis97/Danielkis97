@@ -1,5 +1,6 @@
 """Render assets/generated/stats.svg from the GitHub GraphQL API (no third-party services).
 
+Usage: python scripts/stats.py [dist/snake-dark.svg]
 Env: GH_TOKEN (or GITHUB_TOKEN), optional GH_LOGIN (default Danielkis97).
 A personal token with `repo` scope also counts private repos' languages; the
 Action's built-in token only sees public ones.
@@ -11,6 +12,7 @@ import sys
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(__file__))
+import snake  # noqa: E402
 from art_common import C, esc, frame, frame_defs, mono_w, svg, write  # noqa: E402
 
 LOGIN = os.environ.get("GH_LOGIN", "Danielkis97")
@@ -65,7 +67,7 @@ def streaks(days):
     return current, longest
 
 
-def render(u):
+def render(u, snake_raw=None):
     W, H = 1200, 360
     weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"]
     total = u["contributionsCollection"]["contributionCalendar"]["totalContributions"]
@@ -103,24 +105,30 @@ def render(u):
                  f'<text x="{x + 20:.1f}" y="138" font-size="34" font-weight="700" fill="{col}">{esc(value)}</text>'
                  f'<text x="{x + 20:.1f}" y="158" font-size="11" fill="{C["dim"]}">{esc(sub)}</text></g>')
 
-    # heatmap with a brightness wave rolling across the weeks
     s, g = 9, 2
     hx, hy = 40, 200
-    levels = [C["line"], "#3b0764", "#6d28d9", "#a855f7", C["pink"]]
-    peak = max((d["contributionCount"] for d in days), default=1) or 1
-    cells = ""
-    for wi, w in enumerate(weeks[-53:]):
-        for d in w["contributionDays"]:
-            c = d["contributionCount"]
-            lvl = 0 if c == 0 else min(4, 1 + int(3 * c / peak))
-            wd = dt.date.fromisoformat(d["date"]).isoweekday() % 7
-            cells += (f'<rect class="hm" x="{hx + wi * (s + g)}" y="{hy + wd * (s + g)}" width="{s}" height="{s}" '
-                      f'rx="2" fill="{levels[lvl]}" style="animation-delay:{wi * .05:.2f}s"/>')
-    body += f'<text x="{hx}" y="{hy - 10}" font-size="12" fill="{C["muted"]}">contribution heatmap</text>{cells}'
-    body += (f'<text x="{hx}" y="{hy + 7 * (s + g) + 22}" font-size="11" fill="{C["dim"]}">less</text>'
-             + "".join(f'<rect x="{hx + 34 + i * 13}" y="{hy + 7 * (s + g) + 13}" width="10" height="10" rx="2" fill="{c}"/>'
-                       for i, c in enumerate(levels))
-             + f'<text x="{hx + 34 + 5 * 13 + 4}" y="{hy + 7 * (s + g) + 22}" font-size="11" fill="{C["dim"]}">more</text>')
+    if snake_raw:
+        # the snake eats the real contribution grid right inside the card
+        body += (f'<text x="{hx}" y="{hy - 10}" font-size="12" fill="{C["muted"]}">contribution heatmap '
+                 f'<tspan fill="{C["dim"]}">// fed to the snake daily</tspan></text>')
+        grid, gh = snake.nest(snake_raw, hx - 8, hy - 18, 600)
+        body += grid
+    else:
+        levels = [C["line"], "#3b0764", "#6d28d9", "#a855f7", C["pink"]]
+        peak = max((d["contributionCount"] for d in days), default=1) or 1
+        cells = ""
+        for wi, w in enumerate(weeks[-53:]):
+            for d in w["contributionDays"]:
+                c = d["contributionCount"]
+                lvl = 0 if c == 0 else min(4, 1 + int(3 * c / peak))
+                wd = dt.date.fromisoformat(d["date"]).isoweekday() % 7
+                cells += (f'<rect class="hm" x="{hx + wi * (s + g)}" y="{hy + wd * (s + g)}" width="{s}" height="{s}" '
+                          f'rx="2" fill="{levels[lvl]}" style="animation-delay:{wi * .05:.2f}s"/>')
+        body += f'<text x="{hx}" y="{hy - 10}" font-size="12" fill="{C["muted"]}">contribution heatmap</text>{cells}'
+        body += (f'<text x="{hx}" y="{hy + 7 * (s + g) + 22}" font-size="11" fill="{C["dim"]}">less</text>'
+                 + "".join(f'<rect x="{hx + 34 + i * 13}" y="{hy + 7 * (s + g) + 13}" width="10" height="10" rx="2" fill="{c}"/>'
+                           for i, c in enumerate(levels))
+                 + f'<text x="{hx + 34 + 5 * 13 + 4}" y="{hy + 7 * (s + g) + 22}" font-size="11" fill="{C["dim"]}">more</text>')
 
     # top languages
     lx, ly, lw = 680, 200, 480
@@ -155,4 +163,8 @@ def render(u):
 if __name__ == "__main__":
     if not TOKEN:
         raise SystemExit("set GH_TOKEN or GITHUB_TOKEN")
-    write("generated/stats.svg", render(fetch()))
+    snake_raw = None
+    if len(sys.argv) > 1 and os.path.exists(sys.argv[1]):
+        with open(sys.argv[1], encoding="utf-8") as f:
+            snake_raw = f.read()
+    write("generated/stats.svg", render(fetch(), snake_raw))

@@ -29,18 +29,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Render stats card
+      - name: Render stats card (snake runs on its heatmap)
         env:
           # Optional repo secret STATS_TOKEN (PAT with repo scope) adds private repos' languages.
           GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
-        run: python scripts/stats.py
-      - name: Frame snake card
-        run: python scripts/snake_card.py dist/snake-dark.svg
+        run: python scripts/stats.py dist/snake-dark.svg
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/generated/stats.svg assets/generated/snake.svg
+          git add -A assets/generated
           git diff --cached --quiet || git commit -m "chore: refresh stats + snake"
           git push
 
