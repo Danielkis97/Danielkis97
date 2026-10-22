@@ -1,220 +1,120 @@
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="Animated terminal: whoami prints Daniel, Applied AI, Automation, Digital Products, then trains an idea into a shipped product next to a neural network" />
-</p>
+<div align="center">
 
-# Hi, I'm Daniel 👋
+<img src="assets/hero.svg" width="100%" alt="DANIEL aka R00t: Applied & Generative AI, Automation, Web, Software, Data. Synthwave banner with a glitching name and typed role ticker." />
 
-## Applied AI | Machine Learning | Automation | Digital Systems
+<a href="https://github.com/Danielkis97?tab=followers"><img src="https://img.shields.io/github/followers/Danielkis97?label=followers&style=for-the-badge&labelColor=05070d&color=a78bfa&logo=github&logoColor=white" alt="followers" /></a> <img src="https://img.shields.io/badge/based_in-Germany-22d3ee?style=for-the-badge&labelColor=05070d" alt="based in Germany" /> <img src="https://img.shields.io/badge/status-shipping-a3e635?style=for-the-badge&labelColor=05070d" alt="status: shipping" /> <img src="https://img.shields.io/badge/open_to-collabs-f472b6?style=for-the-badge&labelColor=05070d" alt="open to collabs" />
 
-Working full-time while studying Applied Artificial Intelligence, with a strong focus on building real-world systems across AI, automation, web development, and digital products.
+</div>
 
-I’m especially interested in combining technical execution with product thinking not just training models, but building usable systems, workflows, and applications that solve real problems.
+<img src="assets/terminal.svg" width="100%" alt="Animated terminal: whoami prints Daniel, GenAI, Automation, Web, Software, Data, then trains an idea into a shipped product next to a neural network" />
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## About Me
+### `$ cat about.md`
 
-I focus on practical, applied work across AI, software, automation, and digital product development.
+Working full-time while studying **Applied Artificial Intelligence** part-time. I build across the whole stack of "make it real":
+**generative AI & LLM workflows, automation & bots, websites & web apps, software, and data analysis**, from first idea to something people actually use.
 
-My interests and projects span:
-- Machine Learning and Deep Learning
-- Computer Vision and pattern-based systems
-- Natural Language Processing
-- Automation and bot development
-- Web development and digital product building
-- Cloud, infrastructure, and deployment
-- Brand building and product positioning
+I prefer execution over empty theory, working systems over vague concepts, and products over isolated experiments.
 
-I prefer execution over empty theory, working systems over vague concepts, and scalable solutions over isolated experiments.
+<img src="assets/neofetch.svg" width="100%" alt="neofetch card for r00t@danielkis97: Human v1.0 in Germany, full-time job plus part-time Applied AI studies, Python, TypeScript and Solidity, focus on GenAI, automation, web, data and software" />
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## Tech Stack
+### `$ ls ~/stack --orbit`
 
-### AI / ML
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=jupyter&logoColor=white)
+<img src="assets/stack.svg" width="100%" alt="Tech stack orbit. AI, ML and data: Python, PyTorch, TensorFlow, OpenCV, scikit-learn, Pandas, NumPy. Web and software: TypeScript, React, JavaScript, Java, Flask, HTML/CSS, Git, REST APIs. GenAI, automation and cloud: AWS, Google Cloud, Terraform, Docker, Solidity, OpenAI, Claude, LLM agents, workflows, bots." />
 
-### LLM / AI Tools
-![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-0d1117?style=for-the-badge)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0d1117?style=for-the-badge)
-![AI Automation](https://img.shields.io/badge/AI%20Automation-0d1117?style=for-the-badge)
-![LLM Workflows](https://img.shields.io/badge/LLM%20Workflows-0d1117?style=for-the-badge)
+<details>
+<summary><b>full stack as badges</b></summary>
+<br />
 
-### Development
-![Java](https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-0d1117?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)
+**AI · ML · Data**<br />
+![Python](https://img.shields.io/badge/Python-05070d?style=for-the-badge&logo=python&logoColor=22d3ee)
+![PyTorch](https://img.shields.io/badge/PyTorch-05070d?style=for-the-badge&logo=pytorch&logoColor=22d3ee)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-05070d?style=for-the-badge&logo=tensorflow&logoColor=22d3ee)
+![OpenCV](https://img.shields.io/badge/OpenCV-05070d?style=for-the-badge&logo=opencv&logoColor=22d3ee)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-05070d?style=for-the-badge&logo=scikit-learn&logoColor=22d3ee)
+![Pandas](https://img.shields.io/badge/Pandas-05070d?style=for-the-badge&logo=pandas&logoColor=22d3ee)
+![NumPy](https://img.shields.io/badge/NumPy-05070d?style=for-the-badge&logo=numpy&logoColor=22d3ee)
+![Jupyter](https://img.shields.io/badge/Jupyter-05070d?style=for-the-badge&logo=jupyter&logoColor=22d3ee)
 
-### Cloud / Systems
-![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-0d1117?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-0d1117?style=for-the-badge&logo=terraform&logoColor=white)
-![Cloud Deployment](https://img.shields.io/badge/Cloud%20Deployment-0d1117?style=for-the-badge)
-![Infrastructure as Code](https://img.shields.io/badge/Infrastructure%20as%20Code-0d1117?style=for-the-badge)
+**Generative AI · Automation**<br />
+![OpenAI](https://img.shields.io/badge/OpenAI-05070d?style=for-the-badge&logo=openai&logoColor=f472b6)
+![Claude](https://img.shields.io/badge/Claude-05070d?style=for-the-badge&logo=anthropic&logoColor=f472b6)
+![LLM Workflows](https://img.shields.io/badge/LLM_Workflows-05070d?style=for-the-badge)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-05070d?style=for-the-badge)
+![Bots](https://img.shields.io/badge/Bot_Development-05070d?style=for-the-badge)
+![Workflow Automation](https://img.shields.io/badge/Workflow_Automation-05070d?style=for-the-badge)
 
-### Automation / Product
-![Bot Development](https://img.shields.io/badge/Bot%20Development-0d1117?style=for-the-badge)
-![Workflow Automation](https://img.shields.io/badge/Workflow%20Automation-0d1117?style=for-the-badge)
-![Product Thinking](https://img.shields.io/badge/Product%20Thinking-0d1117?style=for-the-badge)
-![MVP Building](https://img.shields.io/badge/MVP%20Building-0d1117?style=for-the-badge)
-![Brand Building](https://img.shields.io/badge/Brand%20Building-0d1117?style=for-the-badge)
+**Web · Software**<br />
+![TypeScript](https://img.shields.io/badge/TypeScript-05070d?style=for-the-badge&logo=typescript&logoColor=a78bfa)
+![JavaScript](https://img.shields.io/badge/JavaScript-05070d?style=for-the-badge&logo=javascript&logoColor=a78bfa)
+![React](https://img.shields.io/badge/React-05070d?style=for-the-badge&logo=react&logoColor=a78bfa)
+![HTML5](https://img.shields.io/badge/HTML5-05070d?style=for-the-badge&logo=html5&logoColor=a78bfa)
+![CSS3](https://img.shields.io/badge/CSS3-05070d?style=for-the-badge&logo=css&logoColor=a78bfa)
+![Java](https://img.shields.io/badge/Java-05070d?style=for-the-badge&logo=openjdk&logoColor=a78bfa)
+![Flask](https://img.shields.io/badge/Flask-05070d?style=for-the-badge&logo=flask&logoColor=a78bfa)
+![Solidity](https://img.shields.io/badge/Solidity-05070d?style=for-the-badge&logo=solidity&logoColor=a78bfa)
+![Git](https://img.shields.io/badge/Git-05070d?style=for-the-badge&logo=git&logoColor=a78bfa)
 
----
+**Cloud · Infra**<br />
+![AWS](https://img.shields.io/badge/AWS-05070d?style=for-the-badge&logo=amazonwebservices&logoColor=fbbf24)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-05070d?style=for-the-badge&logo=googlecloud&logoColor=fbbf24)
+![Terraform](https://img.shields.io/badge/Terraform-05070d?style=for-the-badge&logo=terraform&logoColor=fbbf24)
+![Docker](https://img.shields.io/badge/Docker-05070d?style=for-the-badge&logo=docker&logoColor=fbbf24)
 
-## Focus Areas
+</details>
 
-- Applied AI
-- Deep Learning
-- Computer Vision
-- Natural Language Processing
-- LLM Workflows
-- Bot Development
-- Workflow Automation
-- Cloud Deployment
-- Product Thinking
-- MVP Building
-- Brand Building
+<img src="assets/divider.svg" width="100%" alt="" />
 
----
-
-## Selected Project Focus
-
-### → Machine Learning & AI Systems
-I work on applied machine learning projects with a strong focus on implementation, evaluation, and practical usability.
-
-This includes:
-- model development
-- data preparation
-- testing and evaluation
-- performance-aware implementation
-- building systems around the model, not just the model itself
-
-**Focus areas:**  
-Python · Machine Learning · Deep Learning · Evaluation Pipelines · Real-World Application
-
----
-
-### → Computer Vision
-A major area of interest is computer vision, especially systems that detect, classify, or interpret visual input under practical constraints.
-
-Examples of work in this area include:
-- age, gender, and emotion recognition
-- video object detection
-- edge-oriented or resource-aware applications
-- image-based analysis pipelines
-
-**Tools / concepts:**  
-Python · OpenCV · Deep Learning · Inference Workflows · Performance Awareness
-
----
-
-### → Natural Language Processing (NLP)
-I also work on NLP-related projects, especially in applied use cases where text needs to be classified, processed, or turned into structured signals.
-
-Examples include:
-- sentiment analysis
-- text classification
-- language-driven logic inside systems and products
-
-**Tools / concepts:**  
-Python · Scikit-Learn · NLP Pipelines · Transformers · Applied Text Processing
-
----
-
-### → Automation & Bot Development
-I build automated systems designed to reduce manual work, handle repetitive actions, or execute logic-based workflows.
-
-This includes:
-- trading bot development
-- rule-based and data-driven automation
-- workflow systems
-- API-based automation and integrations
-
-**Focus:**  
-Python · APIs · Automation Logic · Bot Systems · Process Thinking
-
----
-
-### → Web Development & Product Building
-Beyond AI, I also build websites, frontend systems, and digital products with a practical, execution-first mindset.
-
-This includes:
-- frontend projects
-- app concepts and MVP thinking
-- product-oriented interfaces
-- connecting technical systems with usable experiences
-- translating ideas into structured products
-
-**Stack / areas:**  
-JavaScript · React · HTML · CSS · Web Interfaces · Product Thinking · MVP Development
-
----
-
-### → Infrastructure & Deployment
-I’m also interested in the system side of development — how projects are deployed, structured, and maintained beyond local development.
-
-Areas I work with include:
-- cloud setup
-- deployment flows
-- infrastructure as code
-- practical system design for AI and web projects
-
-**Tools / areas:**  
-AWS · Google Cloud · Terraform · GitHub · Deployment Basics · System Structure
-
----
-
-## Current Direction
-
-Right now, I’m especially focused on:
-- building AI systems that go beyond notebooks and become usable products
-- combining automation with practical business and product use cases
-- expanding technical range across ML, deployment, and product execution
-- building projects that sit between AI, software, and digital entrepreneurship
-
----
-
-## Streak Stats
+### `$ ls ~/projects`
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Danielkis97&theme=github-dark-blue&hide_border=true" />
+  <a href="https://github.com/Danielkis97/Model-to-Production-IoT-Anomalies"><img src="assets/cards/01-iot.svg" width="49%" alt="IoT Anomaly Detection: IsolationForest behind a Flask API, Dockerized" /></a>
+  <a href="https://github.com/Danielkis97/Age-Gender-and-Emotion-Recognition-Local-Edge-Application"><img src="assets/cards/02-emotion.svg" width="49%" alt="Age, Gender and Emotion Recognition running fully local on the edge" /></a>
 </p>
-
----
-
-## Contribution Graph
-
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Danielkis97&theme=github_dark" />
+  <a href="https://github.com/Danielkis97/Video-Object-Detection"><img src="assets/cards/03-video.svg" width="49%" alt="Video Object Detection: YOLOv8 vs Faster R-CNN vs SSD" /></a>
+  <a href="https://github.com/Danielkis97/Sentiment-Analysis-of-Movie-Reviews-Using-Machine-Learning"><img src="assets/cards/04-sentiment.svg" width="49%" alt="Sentiment Analysis of Movie Reviews with Naive Bayes" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Danielkis97/Terraform-AWS-Cloud-Infrastructure"><img src="assets/cards/05-terraform.svg" width="49%" alt="Terraform AWS Infrastructure: VPC, subnets, ELB, auto scaling EC2" /></a>
+  <a href="https://github.com/Danielkis97/Superspeed-Seeds-Racing-Royale"><img src="assets/cards/06-seeds.svg" width="49%" alt="Superspeed Seeds: Racing Royale, a 100-level racing game" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Danielkis97/2024_Project_Habit_Tracking_App"><img src="assets/cards/07-habits.svg" width="49%" alt="Habit Tracker app with streak analytics" /></a>
+  <img src="assets/cards/08-classified.svg" width="49%" alt="Classified stealth project, reveal soon" />
 </p>
 
----
+<details>
+<summary><b>what I actually work on (long version)</b></summary>
+<br />
 
-## Profile Views
+- **Generative AI & LLMs:** LLM workflows, agents and prompt pipelines that do real work instead of demos.
+- **Automation & bots:** API integrations, rule-based and data-driven automation, trading bots, workflow systems.
+- **Web & software:** websites, frontends and full apps with TypeScript and React, MVPs from idea to launch.
+- **Data analysis & ML:** data prep, evaluation pipelines, classic ML, deep learning and the system around the model.
+- **Computer vision & NLP:** face and emotion recognition, person detection, sentiment and text classification.
+- **Cloud & deployment:** AWS, Google Cloud, Terraform, Docker; getting things out of the notebook and into production.
+- **Product & brand:** positioning, MVP thinking and turning technical work into something people want to use.
 
-<p align="left">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Danielkis97.Danielkis97&left_text=Profile%20Views&right_color=%230e75b6" />
-</p>
+</details>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## Additional Information
+### `$ git log --stats`
 
-- **Location:** Germany
-- **Background:** Applied Artificial Intelligence
-- **Work Style:** Practical, structured, execution-driven
-- **Interests:** AI systems, automation, digital products, scalable solutions
-- **Approach:** Build first, refine fast, optimize for real use
-- **Mindset:** Strong interest in combining technical systems with product execution
+<img src="assets/generated/stats.svg" width="100%" alt="GitHub stats: contributions, streaks, repositories and top languages, regenerated daily" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Danielkis97/Danielkis97/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Danielkis97/Danielkis97/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Danielkis97/Danielkis97/output/snake-dark.svg" width="100%" alt="A neon snake eating the contribution graph" />
+</picture>
+
+<img src="assets/footer.svg" width="100%" alt="$ thanks for scrolling. now go build something." />
+
+<div align="center">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Danielkis97.Danielkis97&left_text=visitors&left_color=%2305070d&right_color=%23a78bfa" alt="visitors" />
+</div>
