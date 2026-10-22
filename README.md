@@ -4,42 +4,35 @@
 
 </div>
 
-<img src="assets/terminal.svg" width="100%" alt="Animated terminal: whoami prints Daniel, GenAI, Automation, Web, Software, Data, then trains an idea into a shipped product next to a neural network" />
+<img src="assets/neofetch.svg" width="100%" alt="neofetch card for R00t@Danielkis97: Human v1.0 in Germany, full-time job plus part-time Applied AI studies, Python, TypeScript and Solidity, focus on GenAI, automation, web, data and software" />
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ### `$ cat about.md`
 
-Working full-time while studying **Applied Artificial Intelligence** part-time. I build across the whole stack of "make it real":
-**generative AI & LLM workflows, automation & bots, websites & web apps, software, and data analysis**, from first idea to something people actually use.
+**Full-time job by day. Applied AI student by night. Builder in between.**
 
-I prefer execution over empty theory, working systems over vague concepts, and products over isolated experiments.
+I turn ideas into things that actually run: **LLM-powered tools, automations that kill busywork, bots, websites & web apps, and data pipelines that answer real questions.** Notebook → API → product, no stopping halfway.
 
-<img src="assets/neofetch.svg" width="100%" alt="neofetch card for r00t@danielkis97: Human v1.0 in Germany, full-time job plus part-time Applied AI studies, Python, TypeScript and Solidity, focus on GenAI, automation, web, data and software" />
+```diff
++ shipped           > perfect
++ working systems   > slide decks
++ real users        > toy datasets
+- "we should build that someday"
+```
+
+<img src="assets/terminal.svg" width="100%" alt="Animated terminal: whoami prints Daniel, GenAI, Automation, Web, Software, Data, then trains an idea into a shipped product next to a neural network" />
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ### `$ ls ~/stack`
 
-<div align="center">
-
-<sub><b>AI · ML · DATA</b></sub><br />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" /> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" /> <img src="https://img.shields.io/badge/DeepFace-7B1FA2?style=for-the-badge" alt="DeepFace" /> <img src="https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge" alt="NLTK" />
-<br /><br />
-
-<sub><b>GENERATIVE AI · AUTOMATION</b></sub><br />
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" /> <img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge" alt="OpenAI" /> <img src="https://img.shields.io/badge/LLM_Agents-f472b6?style=for-the-badge" alt="LLM Agents" /> <img src="https://img.shields.io/badge/Prompt_Engineering-a78bfa?style=for-the-badge" alt="Prompt Engineering" /> <img src="https://img.shields.io/badge/Workflow_Automation-22d3ee?style=for-the-badge" alt="Workflow Automation" /> <img src="https://img.shields.io/badge/Bots-a3e635?style=for-the-badge" alt="Bots" />
-<br /><br />
-
-<sub><b>WEB · SOFTWARE</b></sub><br />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" /> <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity" /> <img src="https://img.shields.io/badge/REST_APIs-05070d?style=for-the-badge" alt="REST APIs" />
-<br /><br />
-
-<sub><b>CLOUD · INFRA · TOOLS</b></sub><br />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge" alt="AWS" /> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" /> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" />
-
-</div>
-
+<table align="center">
+<tr><td><code>AI · ML · Data</code></td><td><img src="https://img.shields.io/badge/Python-0f1629?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" /> <img src="https://img.shields.io/badge/PyTorch-0f1629?style=flat-square&logo=pytorch&logoColor=22d3ee" alt="PyTorch" /> <img src="https://img.shields.io/badge/TensorFlow-0f1629?style=flat-square&logo=tensorflow&logoColor=22d3ee" alt="TensorFlow" /> <img src="https://img.shields.io/badge/OpenCV-0f1629?style=flat-square&logo=opencv&logoColor=22d3ee" alt="OpenCV" /> <img src="https://img.shields.io/badge/scikit--learn-0f1629?style=flat-square&logo=scikitlearn&logoColor=22d3ee" alt="scikit-learn" /> <img src="https://img.shields.io/badge/Pandas-0f1629?style=flat-square&logo=pandas&logoColor=22d3ee" alt="Pandas" /> <img src="https://img.shields.io/badge/NumPy-0f1629?style=flat-square&logo=numpy&logoColor=22d3ee" alt="NumPy" /> <img src="https://img.shields.io/badge/Jupyter-0f1629?style=flat-square&logo=jupyter&logoColor=22d3ee" alt="Jupyter" /></td></tr>
+<tr><td><code>GenAI · Automation</code></td><td><img src="https://img.shields.io/badge/Claude-0f1629?style=flat-square&logo=claude&logoColor=f472b6" alt="Claude" /> <img src="https://img.shields.io/badge/OpenAI-0f1629?style=flat-square" alt="OpenAI" /> <img src="https://img.shields.io/badge/LLM_Agents-0f1629?style=flat-square" alt="LLM Agents" /> <img src="https://img.shields.io/badge/Prompt_Engineering-0f1629?style=flat-square" alt="Prompt Engineering" /> <img src="https://img.shields.io/badge/Workflow_Automation-0f1629?style=flat-square" alt="Workflow Automation" /> <img src="https://img.shields.io/badge/Bots-0f1629?style=flat-square" alt="Bots" /></td></tr>
+<tr><td><code>Web · Software</code></td><td><img src="https://img.shields.io/badge/TypeScript-0f1629?style=flat-square&logo=typescript&logoColor=a78bfa" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-0f1629?style=flat-square&logo=javascript&logoColor=a78bfa" alt="JavaScript" /> <img src="https://img.shields.io/badge/React-0f1629?style=flat-square&logo=react&logoColor=a78bfa" alt="React" /> <img src="https://img.shields.io/badge/HTML5-0f1629?style=flat-square&logo=html5&logoColor=a78bfa" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS-0f1629?style=flat-square&logo=css&logoColor=a78bfa" alt="CSS" /> <img src="https://img.shields.io/badge/Java-0f1629?style=flat-square&logo=openjdk&logoColor=a78bfa" alt="Java" /> <img src="https://img.shields.io/badge/Flask-0f1629?style=flat-square&logo=flask&logoColor=a78bfa" alt="Flask" /> <img src="https://img.shields.io/badge/Solidity-0f1629?style=flat-square&logo=solidity&logoColor=a78bfa" alt="Solidity" /></td></tr>
+<tr><td><code>Cloud · Infra</code></td><td><img src="https://img.shields.io/badge/AWS-0f1629?style=flat-square" alt="AWS" /> <img src="https://img.shields.io/badge/Google_Cloud-0f1629?style=flat-square&logo=googlecloud&logoColor=fbbf24" alt="Google Cloud" /> <img src="https://img.shields.io/badge/Terraform-0f1629?style=flat-square&logo=terraform&logoColor=fbbf24" alt="Terraform" /> <img src="https://img.shields.io/badge/Docker-0f1629?style=flat-square&logo=docker&logoColor=fbbf24" alt="Docker" /> <img src="https://img.shields.io/badge/GitHub_Actions-0f1629?style=flat-square&logo=githubactions&logoColor=fbbf24" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/Git-0f1629?style=flat-square&logo=git&logoColor=fbbf24" alt="Git" /></td></tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
