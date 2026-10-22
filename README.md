@@ -193,7 +193,7 @@ Right now, I’m especially focused on:
 ## Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Danielkis97&theme=github-dark&hide_border=true&area=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Danielkis97&theme=github_dark" />
 </p>
 
 ---
@@ -201,7 +201,7 @@ Right now, I’m especially focused on:
 ## Profile Views
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Danielkis97&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Danielkis97.Danielkis97&left_text=Profile%20Views&right_color=%230e75b6" />
 </p>
 
 ---
