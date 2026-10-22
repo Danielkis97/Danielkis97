@@ -13,7 +13,6 @@ if __name__ == "__main__":
     write("hero.svg", art_hero.build())
     write("terminal.svg", art_sections.terminal())
     write("neofetch.svg", art_sections.neofetch())
-    write("stack.svg", art_sections.stack())
     write("divider.svg", art_sections.divider())
     write("footer.svg", art_sections.footer())
     for name, content in art_cards.build_all():

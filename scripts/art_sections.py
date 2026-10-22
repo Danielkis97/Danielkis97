@@ -1,4 +1,4 @@
-"""Section art: boot terminal, neofetch card, tech-stack orbit, divider and footer."""
+"""Section art: boot terminal, neofetch card, divider and footer."""
 import math
 import os
 import random
@@ -37,7 +37,8 @@ def terminal():
     for old, new in RELABEL.items():
         assert old in s, old
         s = s.replace(old, new)
-    return s
+    # same width as before, so the typing covers still line up
+    return s.replace("r00t@danielkis97", "R00t@Danielkis97")
 
 
 # ---------------------------------------------------------------------------
@@ -92,9 +93,9 @@ def neofetch():
 
     ix, iy, lh, fs = 520, 70, 31, 17
     lines = [f'<text x="{ix}" y="{iy}" font-size="{fs + 2}" font-weight="700">'
-             f'<tspan fill="{C["cyan"]}">r00t</tspan><tspan fill="{C["muted"]}">@</tspan>'
-             f'<tspan fill="{C["pink"]}">danielkis97</tspan></text>',
-             f'<rect x="{ix}" y="{iy + 12}" width="{mono_w("r00t@danielkis97", fs + 2):.0f}" height="2" fill="{C["dim"]}"/>']
+             f'<tspan fill="{C["cyan"]}">R00t</tspan><tspan fill="{C["muted"]}">@</tspan>'
+             f'<tspan fill="{C["pink"]}">Danielkis97</tspan></text>',
+             f'<rect x="{ix}" y="{iy + 12}" width="{mono_w("R00t@Danielkis97", fs + 2):.0f}" height="2" fill="{C["dim"]}"/>']
     for i, (k, v) in enumerate(NEOFETCH):
         y = iy + 44 + i * lh
         lines.append(
@@ -124,87 +125,9 @@ def neofetch():
     body = (frame(W, H) + f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="17" fill="url(#dots)" opacity=".7"/>'
             f'<line x1="470" y1="40" x2="470" y2="{H - 40}" stroke="{C["line"]}" stroke-dasharray="3 6"/>'
             + logo + "".join(lines) + blocks + cursor)
-    return svg(W, H, body, "neofetch: r00t@danielkis97",
+    return svg(W, H, body, "neofetch: R00t@Danielkis97",
                "A neofetch-style system card: an animated pixel R00T logo next to a spec sheet - "
                + "; ".join(f"{k}: {v}" for k, v in NEOFETCH) + ".", style=style, defs=defs)
-
-
-# ---------------------------------------------------------------------------
-# Tech stack as three tilted orbits; pills ride the ellipses with fake depth.
-# ---------------------------------------------------------------------------
-RINGS = [
-    (200, 64, 24, 1, "cyan", "AI · ML · Data",
-     ["Python", "PyTorch", "TensorFlow", "OpenCV", "scikit-learn", "Pandas", "NumPy"]),
-    (340, 112, 36, -1, "violet", "Web · Software",
-     ["TypeScript", "React", "JavaScript", "Java", "Flask", "HTML/CSS", "Git", "REST APIs"]),
-    (490, 166, 52, 1, "pink", "GenAI · Automation · Cloud",
-     ["AWS", "Google Cloud", "Terraform", "Docker", "Solidity", "OpenAI", "Claude", "LLM Agents", "Workflows", "Bots"]),
-]
-
-
-def stack():
-    W, H, cx, cy = 1200, 520, 600, 286
-    rnd = random.Random(42)
-    parts, legend = [], []
-    for ri, (rx, ry, dur, direction, ckey, label, items) in enumerate(RINGS):
-        col = C[ckey]
-        path = (f"M{cx},{cy + ry} A{rx},{ry} 0 1 0 {cx},{cy - ry} A{rx},{ry} 0 1 0 {cx},{cy + ry}")
-        parts.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="none" stroke="{col}" '
-                     f'stroke-opacity=".28" stroke-dasharray="2 7"/>')
-        kp = 'keyPoints="0;1"' if direction > 0 else 'keyPoints="1;0"'
-        for i, item in enumerate(items):
-            phase = i / len(items)
-            begin = f"-{phase * dur:.2f}s"
-            fs = 13
-            w = mono_w(item, fs) + 26
-            depth_t = ("1;.86;.7;.86;1" if direction > 0 else "1;.86;.7;.86;1")
-            parts.append(
-                f'<g><animateMotion dur="{dur}s" repeatCount="indefinite" begin="{begin}" {kp} '
-                f'keyTimes="0;1" calcMode="linear" path="{path}"/>'
-                f'<g><animateTransform attributeName="transform" type="scale" dur="{dur}s" begin="{begin}" '
-                f'repeatCount="indefinite" values="{depth_t}"/>'
-                f'<animate attributeName="opacity" dur="{dur}s" begin="{begin}" repeatCount="indefinite" '
-                f'values="1;.7;.35;.7;1"/>'
-                f'<rect x="{-w / 2:.1f}" y="-14" width="{w:.1f}" height="28" rx="14" fill="{C["panel"]}" '
-                f'stroke="{col}" stroke-opacity=".8"/>'
-                f'<text x="0" y="4.6" font-size="{fs}" text-anchor="middle" fill="{col}" '
-                f'textLength="{mono_w(item, fs):.1f}" lengthAdjust="spacingAndGlyphs">{esc(item)}</text></g></g>')
-        lx, ly = 40, H - 86 + ri * 24
-        legend.append(f'<circle cx="{lx + 6}" cy="{ly - 4}" r="5" fill="{col}"/>'
-                      f'<text x="{lx + 20}" y="{ly}" font-size="13" fill="{C["muted"]}">'
-                      f'<tspan fill="{col}">ring {ri + 1}</tspan>  {esc(label)}</text>')
-
-    sparks = "".join(
-        f'<circle class="sp" cx="{rnd.uniform(30, W - 30):.0f}" cy="{rnd.uniform(60, H - 30):.0f}" '
-        f'r="{rnd.choice([.8, 1.1, 1.5])}" fill="{C[rnd.choice(["cyan", "violet", "pink"])]}" '
-        f'style="animation-delay:-{rnd.uniform(0, 5):.2f}s"/>' for _ in range(46))
-
-    core = (f'<circle cx="{cx}" cy="{cy}" r="70" fill="{C["violet2"]}" opacity=".35" filter="url(#softglow)" class="breathe"/>'
-            f'<circle cx="{cx}" cy="{cy}" r="46" fill="url(#coreg)" stroke="{C["cyan"]}" stroke-opacity=".7"/>'
-            f'<circle cx="{cx}" cy="{cy}" r="56" fill="none" stroke="{C["cyan"]}" stroke-width="1.5" '
-            f'stroke-dasharray="10 8 2 8" stroke-opacity=".8">'
-            f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" '
-            f'dur="14s" repeatCount="indefinite"/></circle>'
-            f'<text x="{cx}" y="{cy + 3}" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">R00t</text>'
-            f'<text x="{cx}" y="{cy + 21}" text-anchor="middle" font-size="10" fill="{C["cyan2"]}">core.v1</text>')
-
-    header = (f'<text x="40" y="48" font-size="15" fill="{C["muted"]}"><tspan fill="{C["lime"]}">$</tspan> '
-              f'ls ~/stack <tspan fill="{C["dim"]}">--orbit --live</tspan></text>'
-              f'<text x="{W - 40}" y="48" font-size="13" fill="{C["muted"]}" text-anchor="end">'
-              f'3 rings · {sum(len(r[6]) for r in RINGS)} tools · 0 regrets</text>')
-
-    defs = frame_defs() + (f'<radialGradient id="coreg" cx=".35" cy=".35"><stop offset="0" stop-color="#2b1a5e"/>'
-                           f'<stop offset="1" stop-color="{C["bg"]}"/></radialGradient>')
-    style = """
-.sp{animation:tw 5s ease-in-out infinite}
-@keyframes tw{0%,100%{opacity:.1}50%{opacity:.9}}
-.breathe{animation:br 4s ease-in-out infinite}
-@keyframes br{0%,100%{opacity:.25}50%{opacity:.5}}
-"""
-    body = frame(W, H) + sparks + header + "".join(parts) + core + "".join(legend)
-    return svg(W, H, body, "Tech stack orbit",
-               "Three tilted orbits of tools circling a core labelled R00t: "
-               + "; ".join(f"{r[5]}: " + ", ".join(r[6]) for r in RINGS) + ".", style=style, defs=defs)
 
 
 # ---------------------------------------------------------------------------

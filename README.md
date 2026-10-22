@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" width="100%" alt="DANIEL aka R00t: Applied & Generative AI, Automation, Web, Software, Data. Synthwave banner with a glitching name and typed role ticker." />
 
-<a href="https://github.com/Danielkis97?tab=followers"><img src="https://img.shields.io/github/followers/Danielkis97?label=followers&style=for-the-badge&labelColor=05070d&color=a78bfa&logo=github&logoColor=white" alt="followers" /></a> <img src="https://img.shields.io/badge/based_in-Germany-22d3ee?style=for-the-badge&labelColor=05070d" alt="based in Germany" /> <img src="https://img.shields.io/badge/status-shipping-a3e635?style=for-the-badge&labelColor=05070d" alt="status: shipping" /> <img src="https://img.shields.io/badge/open_to-collabs-f472b6?style=for-the-badge&labelColor=05070d" alt="open to collabs" />
+<a href="https://github.com/Danielkis97?tab=followers"><img src="https://img.shields.io/github/followers/Danielkis97?label=followers&style=for-the-badge&labelColor=05070d&color=a78bfa&logo=github&logoColor=white" alt="followers" /></a> <a href="https://github.com/Danielkis97?tab=repositories"><img src="https://img.shields.io/github/stars/Danielkis97?affiliations=OWNER&label=stars&style=for-the-badge&labelColor=05070d&color=fbbf24&logo=githubsponsors&logoColor=white" alt="stars" /></a> <img src="https://img.shields.io/badge/based_in-Germany-22d3ee?style=for-the-badge&labelColor=05070d" alt="based in Germany" /> <img src="https://img.shields.io/badge/studying-Applied_AI-f472b6?style=for-the-badge&labelColor=05070d" alt="studying Applied AI" /> <img src="https://img.shields.io/badge/status-shipping-a3e635?style=for-the-badge&labelColor=05070d" alt="status: shipping" /> <img src="https://img.shields.io/badge/open_to-collabs-a78bfa?style=for-the-badge&labelColor=05070d" alt="open to collabs" />
 
 </div>
 
@@ -21,50 +21,27 @@ I prefer execution over empty theory, working systems over vague concepts, and p
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-### `$ ls ~/stack --orbit`
+### `$ ls ~/stack`
 
-<img src="assets/stack.svg" width="100%" alt="Tech stack orbit. AI, ML and data: Python, PyTorch, TensorFlow, OpenCV, scikit-learn, Pandas, NumPy. Web and software: TypeScript, React, JavaScript, Java, Flask, HTML/CSS, Git, REST APIs. GenAI, automation and cloud: AWS, Google Cloud, Terraform, Docker, Solidity, OpenAI, Claude, LLM agents, workflows, bots." />
+<div align="center">
 
-<details>
-<summary><b>full stack as badges</b></summary>
-<br />
+<sub><b>AI · ML · DATA</b></sub><br />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" /> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" /> <img src="https://img.shields.io/badge/DeepFace-7B1FA2?style=for-the-badge" alt="DeepFace" /> <img src="https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge" alt="NLTK" />
+<br /><br />
 
-**AI · ML · Data**<br />
-![Python](https://img.shields.io/badge/Python-05070d?style=for-the-badge&logo=python&logoColor=22d3ee)
-![PyTorch](https://img.shields.io/badge/PyTorch-05070d?style=for-the-badge&logo=pytorch&logoColor=22d3ee)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-05070d?style=for-the-badge&logo=tensorflow&logoColor=22d3ee)
-![OpenCV](https://img.shields.io/badge/OpenCV-05070d?style=for-the-badge&logo=opencv&logoColor=22d3ee)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-05070d?style=for-the-badge&logo=scikit-learn&logoColor=22d3ee)
-![Pandas](https://img.shields.io/badge/Pandas-05070d?style=for-the-badge&logo=pandas&logoColor=22d3ee)
-![NumPy](https://img.shields.io/badge/NumPy-05070d?style=for-the-badge&logo=numpy&logoColor=22d3ee)
-![Jupyter](https://img.shields.io/badge/Jupyter-05070d?style=for-the-badge&logo=jupyter&logoColor=22d3ee)
+<sub><b>GENERATIVE AI · AUTOMATION</b></sub><br />
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" /> <img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge" alt="OpenAI" /> <img src="https://img.shields.io/badge/LLM_Agents-f472b6?style=for-the-badge" alt="LLM Agents" /> <img src="https://img.shields.io/badge/Prompt_Engineering-a78bfa?style=for-the-badge" alt="Prompt Engineering" /> <img src="https://img.shields.io/badge/Workflow_Automation-22d3ee?style=for-the-badge" alt="Workflow Automation" /> <img src="https://img.shields.io/badge/Bots-a3e635?style=for-the-badge" alt="Bots" />
+<br /><br />
 
-**Generative AI · Automation**<br />
-![OpenAI](https://img.shields.io/badge/OpenAI-05070d?style=for-the-badge&logo=openai&logoColor=f472b6)
-![Claude](https://img.shields.io/badge/Claude-05070d?style=for-the-badge&logo=anthropic&logoColor=f472b6)
-![LLM Workflows](https://img.shields.io/badge/LLM_Workflows-05070d?style=for-the-badge)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-05070d?style=for-the-badge)
-![Bots](https://img.shields.io/badge/Bot_Development-05070d?style=for-the-badge)
-![Workflow Automation](https://img.shields.io/badge/Workflow_Automation-05070d?style=for-the-badge)
+<sub><b>WEB · SOFTWARE</b></sub><br />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" /> <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity" /> <img src="https://img.shields.io/badge/REST_APIs-05070d?style=for-the-badge" alt="REST APIs" />
+<br /><br />
 
-**Web · Software**<br />
-![TypeScript](https://img.shields.io/badge/TypeScript-05070d?style=for-the-badge&logo=typescript&logoColor=a78bfa)
-![JavaScript](https://img.shields.io/badge/JavaScript-05070d?style=for-the-badge&logo=javascript&logoColor=a78bfa)
-![React](https://img.shields.io/badge/React-05070d?style=for-the-badge&logo=react&logoColor=a78bfa)
-![HTML5](https://img.shields.io/badge/HTML5-05070d?style=for-the-badge&logo=html5&logoColor=a78bfa)
-![CSS3](https://img.shields.io/badge/CSS3-05070d?style=for-the-badge&logo=css&logoColor=a78bfa)
-![Java](https://img.shields.io/badge/Java-05070d?style=for-the-badge&logo=openjdk&logoColor=a78bfa)
-![Flask](https://img.shields.io/badge/Flask-05070d?style=for-the-badge&logo=flask&logoColor=a78bfa)
-![Solidity](https://img.shields.io/badge/Solidity-05070d?style=for-the-badge&logo=solidity&logoColor=a78bfa)
-![Git](https://img.shields.io/badge/Git-05070d?style=for-the-badge&logo=git&logoColor=a78bfa)
+<sub><b>CLOUD · INFRA · TOOLS</b></sub><br />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge" alt="AWS" /> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" /> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" />
 
-**Cloud · Infra**<br />
-![AWS](https://img.shields.io/badge/AWS-05070d?style=for-the-badge&logo=amazonwebservices&logoColor=fbbf24)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-05070d?style=for-the-badge&logo=googlecloud&logoColor=fbbf24)
-![Terraform](https://img.shields.io/badge/Terraform-05070d?style=for-the-badge&logo=terraform&logoColor=fbbf24)
-![Docker](https://img.shields.io/badge/Docker-05070d?style=for-the-badge&logo=docker&logoColor=fbbf24)
+</div>
 
-</details>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -107,11 +84,7 @@ I prefer execution over empty theory, working systems over vague concepts, and p
 
 <img src="assets/generated/stats.svg" width="100%" alt="GitHub stats: contributions, streaks, repositories and top languages, regenerated daily" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Danielkis97/Danielkis97/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Danielkis97/Danielkis97/output/snake-light.svg" />
-  <img src="https://raw.githubusercontent.com/Danielkis97/Danielkis97/output/snake-dark.svg" width="100%" alt="A neon snake eating the contribution graph" />
-</picture>
+<img src="assets/generated/snake.svg" width="100%" alt="A neon snake eating the contribution graph, regenerated daily" />
 
 <img src="assets/footer.svg" width="100%" alt="$ thanks for scrolling. now go build something." />
 

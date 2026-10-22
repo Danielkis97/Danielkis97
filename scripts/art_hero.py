@@ -140,7 +140,7 @@ def build():
     boot = (f'<text x="64" y="84" font-size="15" fill="{C["muted"]}">'
             f'<tspan class="pulse" fill="{C["lime"]}">&#9679;</tspan>'
             f'<tspan fill="{C["lime"]}"> SYSTEM ONLINE</tspan>'
-            f'<tspan>  //  r00t@github:~/danielkis97</tspan></text>')
+            f'<tspan>  //  github.com/Danielkis97</tspan></text>')
 
     name_attrs = 'x="60" y="212" textLength="486" lengthAdjust="spacingAndGlyphs"'
     name = (f'<text {name_attrs} fill="{C["cyan"]}" fill-opacity=".85" class="nm g1">DANIEL</text>'
