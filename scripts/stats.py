@@ -111,7 +111,7 @@ def render(u, snake_raw=None):
         # the snake eats the real contribution grid right inside the card
         body += (f'<text x="{hx}" y="{hy - 10}" font-size="12" fill="{C["muted"]}">contribution heatmap '
                  f'<tspan fill="{C["dim"]}">// fed to the snake daily</tspan></text>')
-        grid, gh = snake.nest(snake_raw, hx - 8, hy - 18, 600)
+        grid, gh = snake.nest(snake_raw, hx - 8, hy - 4, 600)
         body += grid
     else:
         levels = [C["line"], "#3b0764", "#6d28d9", "#a855f7", C["pink"]]
