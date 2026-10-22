@@ -2,8 +2,6 @@
 
 <img src="assets/hero.svg" width="100%" alt="DANIEL aka R00t: Applied & Generative AI, Automation, Web, Software, Data. Synthwave banner with a glitching name and typed role ticker." />
 
-<a href="https://github.com/Danielkis97?tab=followers"><img src="https://img.shields.io/github/followers/Danielkis97?label=followers&style=for-the-badge&labelColor=05070d&color=a78bfa&logo=github&logoColor=white" alt="followers" /></a> <a href="https://github.com/Danielkis97?tab=repositories"><img src="https://img.shields.io/github/stars/Danielkis97?affiliations=OWNER&label=stars&style=for-the-badge&labelColor=05070d&color=fbbf24&logo=githubsponsors&logoColor=white" alt="stars" /></a> <img src="https://img.shields.io/badge/based_in-Germany-22d3ee?style=for-the-badge&labelColor=05070d" alt="based in Germany" /> <img src="https://img.shields.io/badge/studying-Applied_AI-f472b6?style=for-the-badge&labelColor=05070d" alt="studying Applied AI" /> <img src="https://img.shields.io/badge/status-shipping-a3e635?style=for-the-badge&labelColor=05070d" alt="status: shipping" /> <img src="https://img.shields.io/badge/open_to-collabs-a78bfa?style=for-the-badge&labelColor=05070d" alt="open to collabs" />
-
 </div>
 
 <img src="assets/terminal.svg" width="100%" alt="Animated terminal: whoami prints Daniel, GenAI, Automation, Web, Software, Data, then trains an idea into a shipped product next to a neural network" />
